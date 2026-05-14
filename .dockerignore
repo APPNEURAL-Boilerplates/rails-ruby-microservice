@@ -1,0 +1,11 @@
+.git
+.bundle
+log/*
+tmp/*
+storage/*
+coverage
+.env
+.env.*
+Dockerfile
+docker-compose.yml
+README.md

@@ -1,0 +1,35 @@
+plugins:
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'bin/**/*'
+    - 'db/schema.rb'
+    - 'node_modules/**/*'
+    - 'vendor/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Metrics/MethodLength:
+  Max: 20
+
+Naming/PredicateMethod:
+  Enabled: false
+
+Rails/StrongParametersExpect:
+  Enabled: false
+
+Rails/Delegate:
+  Enabled: false
+
+Rails/ResponseParsedBody:
+  Enabled: false
+
+Lint/DuplicateBranch:
+  Enabled: false
