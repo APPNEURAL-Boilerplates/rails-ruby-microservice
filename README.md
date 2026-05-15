@@ -37,7 +37,7 @@ A production-friendly Rails API-only microservice starter with versioned REST en
 ## Project Structure
 
 ```txt
-rails-ruby-microservice/
+rails-ruby-microservice-boilerplate/
 ├─ app/
 │  ├─ clients/
 │  ├─ controllers/
