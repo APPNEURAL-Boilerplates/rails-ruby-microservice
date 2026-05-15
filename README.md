@@ -1,4 +1,4 @@
-# Rails Microservice Boilerplate
+# Rails Ruby Microservice
 
 A production-friendly Rails API-only microservice starter with versioned REST endpoints, consistent JSON responses, request ID propagation, centralized error handling, tests, Docker, and CI.
 
@@ -37,7 +37,7 @@ A production-friendly Rails API-only microservice starter with versioned REST en
 ## Project Structure
 
 ```txt
-rails-microservice-boilerplate/
+rails-ruby-microservice/
 ├─ app/
 │  ├─ clients/
 │  ├─ controllers/
